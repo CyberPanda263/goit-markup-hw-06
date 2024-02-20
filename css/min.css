@@ -140,11 +140,12 @@ header_contact {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 64px;
-    justify-content: center;
+    max-width: 552px;
+    margin: 0 auto;
 }
 
 .team_list_item {
-    width: calc((100% - 24px) / 2);
+   width: calc((100% - 24px) / 2);
 }
 /*team section end*/
 
@@ -295,6 +296,10 @@ section:not(:first-child) {
 /*advantages section end*/
 
 /*team section start*/
+
+.team_list {
+    max-width: none;
+}
 
 .team_list_item {
     width: calc((100% - 72px) / 4);
