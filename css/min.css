@@ -65,7 +65,7 @@
 
 .header_contact a {
     color: #434455;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
@@ -82,8 +82,8 @@
     font-family: 'Roboto', Regular;
 }
 
-header_contact {
-    margin-left: 332px;
+.backdrop_mob_menu {
+    display: none;
 }
 
 .header_menu a:hover, .header_menu a:focus, .header_contact a:hover, .header_contact a:focus {
@@ -147,6 +147,10 @@ header_contact {
 .team_list_item {
    width: calc((100% - 24px) / 2);
 }
+
+.item_title {
+    text-align: left;
+}
 /*team section end*/
 
 /*portfolio section start*/
@@ -172,7 +176,7 @@ header_contact {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    margin-left: 108px;
+    padding-left: 108px
 }
 
 .logo_foter {
@@ -185,6 +189,10 @@ header_contact {
 }
 
 .footer_disription {
+    margin-bottom: 0;
+}
+
+.footer_social_media_conteiner {
     margin-bottom: 0;
 }
 
@@ -281,7 +289,6 @@ section:not(:first-child) {
 }
 
 .item_title {
-    text-align: left;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -335,6 +342,7 @@ section:not(:first-child) {
     row-gap: 0;
     margin-left: 0;
     align-items: baseline;
+    padding-left: 0;
 }
 
 .logo_foter {
